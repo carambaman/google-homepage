@@ -1,0 +1,174 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+}
+
+main {
+  text-align: center;
+}
+
+form {
+  width: 585px;
+  height: 400px;
+  margin: auto;
+}
+
+.logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  block-size: 95px;
+}
+
+input[type=text]{
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 40px;
+  font-size: 15px;
+  background-color: white;
+  background-image: url("searchicon.svg");
+  background-size: 20px;
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  outline: none;
+}
+
+input:hover {
+  box-shadow: 1px 1px 10px 1px lightgray;
+}
+
+button{
+  background-color: #f4f4f4;
+  border: slategray;
+  color: black;
+  font-size: small;
+  padding: 10px 15px;
+  margin: 25px 3px;
+  cursor: pointer;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+button:hover{
+  box-shadow: 0px 1px 2px 0px lightgray;
+  border: 1px solid #ccc;
+}
+
+.french{
+  font-size: small;
+  margin-top: -20%;
+  margin-right: 15px;
+}
+
+.logo{
+  display: block;
+  padding-top: 105px;
+  padding-bottom: 24px;
+  margin-right: auto;
+  margin-left: auto;
+  block-size: 90px;
+}
+
+/* Add a background color to the top navigation */
+.topnav {
+  overflow: hidden;
+  width: 100%;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+float: left;
+color: #141414;
+padding-left: 0px;
+padding-top: 0px;
+margin-top: 24px;
+margin-left: 20px;
+text-align: center;
+text-decoration: none;
+font-size: 12.5px;
+}
+
+/* Adds underliment to links on hover */
+.topnav a:hover {
+  text-decoration: underline;
+}
+
+
+/* Right-aligned section inside the top navigation */
+.topnav-right a {
+float: right;
+}
+
+.gridmenu{
+  display: block;
+  block-size: 20px;
+  background-color: white;
+}
+
+#sign-in {
+  background-color:  #4481f1;
+  border-radius: 3px;
+  color: white;
+  font-weight: bold;
+  margin-top: 17px;
+  margin-right: 29px;
+  padding-top: 7px;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-bottom: 7px;
+}
+
+/* Place the navbar at the bottom of the page */
+.botnav {
+  background-color: #f4f4f4;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  margin-right: 80px;
+  width: 100%;
+  border-top: 1px solid #e4e4e4;
+}
+
+/* Style the links inside the navigation bar */
+.botnav a {
+  float: left;
+  display: block;
+  color: rgba(92, 92, 92, 0.87);
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  margin-left: 30px;
+  margin-right: 0px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* Change the color of links on hover */
+.botnav a:hover {
+  text-decoration: underline;
+}
+
+/* Right-aligned section inside the bottom navigation */
+.botnav-right a {
+  float: right;
+  margin-left: 0px;
+  margin-right: 30px;
+}
+
+.country{
+  display: block;
+  position: fixed;
+  bottom: 5%;
+  width: 100%;
+  background-color: #f4f4f4;
+  color: rgba(92, 92, 92, 0.87);
+  text-decoration: none;
+  font-size: 15px;
+  border-top: 1px solid #e4e4e4;
+}
+
+#canada{
+  margin-left: 30px;
+}
